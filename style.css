@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  font-family: "Montserrat", sans-serif !important;
+  transition: all 0.6s ease;
+  background-color: #191c25;
+}
+.my-header {
+  padding-top: 90px;
+  background-color: #1d2d31;
+}
+.header-text {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif !important;
+  text-align: center;
+  color: white;
+}
+form {
+  margin-top: 20px
+}
+.input-group {
+  padding: 15px 30px 0 30px;
+}
+.input-group input {
+  font-family: "Montserrat", sans-serif !important;
+  width: 100%;
+  display: block;
+  padding: 14px;
+  color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+  outline: none;
+  border-radius: 2px;
+  border: 3px solid white;
+  transition: border-radius 0.2s ease,
+  border 0.2s ease;
+}
+.input-group input:active,
+.input-group input:focus {
+  border-radius: 7px;
+  border: 3px solid #7289DA;
+}
+.submit {
+  padding: 20px 30px 10px 30px;
+}
+.submit-button:active,
+.submit-button:hover {
+  border-radius: 30px;
+  border: 2px solid white;
+  background-color: #4542ff
+}
+.submit-button {
+  font-family: "Montserrat", sans-serif !important;
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: border 0.6s ease,
+  border-radius 0.6s ease,
+  background-color 0.2s linear;
+  outline: none;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #918ffe;
+  background-color: #918ffe;
+  display: block;
+}
+.action-forgot-regis {
+  padding: 20px 30px 10px 30px;
+}
+.action-forgot-regis a {
+  font-size: 13px;
+}
+.action-forgot-regis a:last-child {
+  float: right;
+}
+@media (min-width: 769px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  }
+  .my-header {
+    border: 1px solid rgba(225,225,225,0.3);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .action-forgot-regis {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .action-forgot-regis a:last-child {
+    float: none;
+    margin-top: 10px;
+  }
+}
