@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoto&display=swap');
 body {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Monoto", sans-serif !important;
   transition: all 0.6s ease;
   background-color: #191c25;
 }
@@ -10,7 +10,7 @@ body {
 }
 .header-text {
   font-size: 40px;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Monoto", sans-serif !important;
   text-align: center;
   color: white;
 }
@@ -21,14 +21,14 @@ form {
   padding: 15px 30px 0 30px;
 }
 .input-group input {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Monoto", sans-serif !important;
   width: 100%;
   display: block;
   padding: 14px;
   color: rgba(0, 0, 0, 0.9);
   box-shadow: 0 4px 5px rgba(0,0,0,0.1);
   outline: none;
-  border-radius: 2px;
+  border-radius: 6px;
   border: 3px solid white;
   transition: border-radius 0.2s ease,
   border 0.2s ease;
@@ -65,14 +65,22 @@ form {
   display: block;
 }
 .action-forgot-regis {
-  padding: 20px 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
 }
-.action-forgot-regis a {
-  font-size: 13px;
+.action-forgot-regis div {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
 }
-.action-forgot-regis a:last-child {
+.action-forgot-regis div a {
+  font-size: 14px;
+}
+/*.action-forgot-regis a:last-child {
   float: right;
-}
+}*/
 @media (min-width: 769px) {
   .container {
     display: flex;
